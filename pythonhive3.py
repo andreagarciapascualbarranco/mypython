@@ -36,4 +36,3 @@ if status == 0:
 	print (output)
 else:
 	print ("error")
-
