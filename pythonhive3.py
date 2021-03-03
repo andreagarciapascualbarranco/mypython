@@ -33,7 +33,7 @@ cmd = "hive -S -e 'SELECT * FROM log4jLogs WHERE t4 = \"[ERROR]\";'"
 print ("Ejecutando "+cmd)
 output = subprocess.getstatusoutput(cmd)
 if status == 0:
-	print output
+	print (output)
 else:
-	print "error"
+	print ("error")
 
